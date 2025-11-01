@@ -138,7 +138,56 @@ document.addEventListener("DOMContentLoaded", () => {
   const lazyLoad = document.querySelector(".lazyLoad");
   setTimeout(() => {
     lazyLoad.innerHTML = `
-   
+   <div class="description">
+    <div class="description__container">
+
+      <h2 class="description__title">BEpul marafonda siz</h2>
+      <div class="description__row">
+        <div class="description__col">
+          <img class="description__col-img mb" src="./img/verified.png" loading="lazy" decoding="async"
+            alt="verified icons">
+          <p class="description__col-text">
+            Qanday qilib <b>pulsizlikdan qutulib,</b> moliyaviy erkinlikka erishishni
+          </p>
+        </div>
+        <div class="description__col">
+          <img class="description__col-img mb" src="./img/verified.png" loading="lazy" decoding="async"
+            alt="verified icons">
+
+          <p class="description__col-text">
+            Daromadni 5x oshirish usullarini <br> <b>Asl boylik siri</b> shukronalikni
+          </p>
+        </div>
+        <div class="description__col">
+          <img class="description__col-img mb" src="./img/verified.png" loading="lazy" decoding="async"
+            alt="verified icons">
+
+          <p class="description__col-text">
+            Asabiylik, <b>stress va tushkunlikdan <br></b> xalos bo‘lishni
+          </p>
+        </div>
+        <div class="description__col">
+          <img class="description__col-img mb" src="./img/verified.png" loading="lazy" decoding="async"
+            alt="verified icons">
+
+          <p class="description__col-text">
+            Turmush o‘rtog‘i bilan munosabatni yaxshilash, ishonchni oshirish <br>
+            va <b>baxtni his qilish sirlarini</b> o‘rganasiz
+          </p>
+        </div>
+      </div>
+      <button class="mobile-cta-button registerBtn">
+        Bepul qatnashish
+        <div class="mobile-cta-box">
+          <svg width="22" height="12" viewBox="0 0 22 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M21.5303 6.53033C21.8232 6.23744 21.8232 5.76257 21.5303 5.46967L16.7574 0.696701C16.4645 0.403807 15.9896 0.403807 15.6967 0.696701C15.4038 0.989594 15.4038 1.46447 15.6967 1.75736L19.9393 6L15.6967 10.2426C15.4038 10.5355 15.4038 11.0104 15.6967 11.3033C15.9896 11.5962 16.4645 11.5962 16.7574 11.3033L21.5303 6.53033ZM0 6L-6.55671e-08 6.75L21 6.75L21 6L21 5.25L6.55671e-08 5.25L0 6Z"
+              fill="black" />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
     `;
   }, 1000);
 });
